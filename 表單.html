@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用意見調查表</title>
+</head>
+<body>
+    <h1>行動電話使用意見調查表</h1>
+    <form>
+        <p>姓&nbsp;名: <input type="text" name="userName" size="40"></p>
+        <p>E-mail: <input type="text" name="userMail" size="40" ></p>
+        <p>年齡
+        <input type="radio" name="userAge" value="age1">未滿20歲
+        <input type="radio" name="userAge" value="age2">20-29歲
+        <input type="radio" name="userAge" value="age1">20-39歲
+        <input type="radio" name="userAge" value="age2">40歲以上
+        </p>
+        <p>您使用過哪些廠牌的手機?
+        <input type="checkbox" name="userPhone[]" value="htc">htc
+        <input type="checkbox" name="userPhone[]" value="asus">asus
+        <input type="checkbox" name="userPhone[]" value="asus">apple
+        </p>
+        <p>您使用手機時最常碰到哪些問題?<br>
+        <textarea name="userTrouble" cols="45" rows="4"></textarea>
+        </p>
+        <input type="submit" value="提交">
+        <input type="reset" value="重設">
+    </form>
+</body>
+</html>

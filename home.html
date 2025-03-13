@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 縮排,通常根據標籤的層次 -->
+<head>
+    <!-- 告訴瀏覽器,網頁編碼是 utf-8 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+</head>
+<body style="background-color:gray;">
+    <!-- 網頁的主畫面都寫在 body 標籤中 -->
+    <h3 style="color: red;text-decoration:underline;">標題</h3> 
+    <hr>
+    <h3>下面是段落</h3>
+    <p>段落1</p>
+    <div style="color: aqua;">div沒有任何預設樣式</div>
+    <div style="font-weight:blod;font-size:24px;">字體變大</div>
+    <!-- 使用<span>不會換行 div會 -->
+    <div style="color:black;">要把<span style=" color: red;">紅色</span>這兩個字變色</div>
+    <hr/>
+    <!--margin讓標題與內容之間有空間  -->
+    <div style="margin-top: 10px; margin-bottom: 10px;">下面是區塊模型 box model</div>
+    <!-- padding讓文字與邊框有距離、dahed是虛線 solid實線  -->
+    <div style="width: 400px; padding: 10px; border: 1px dashed blue;">邊框</div>
+    <hr/>
+    <!-- 超連結 -->
+    <a href="https://www.google.com">超連結</a>
+    <hr>
+    <img src="邊牧.jpg" alt="插入圖片">
+    <hr/
+    <!-- 列表 -->
+    <h2> 下面是列表</h2>  
+    <ul>
+        <!-- target="_blank" 會開一個新分頁 -->
+        <li>項目1<a href="https://www.google.com" target="_blank">google</a></li>
+        <li>項目2</li>
+    </ul>
+    <hr/>
+    <!-- 表格練習 -->
+    <h2>表格</h2>
+    <!-- 3*3表格 -->
+    <table border="1" width="500" cellpadding="10">
+        <tr>
+            <td>球隊名稱</td>
+            <td>勝</td>
+            <td>負</td>
+        </tr>
+        <tr>
+            <td>紐約洋基</td>
+            <td>10</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>洛杉磯道奇</td>
+            <td>20</td>
+            <td>0</td>
+        </tr>
+    </table>
+</body>
+</html>
